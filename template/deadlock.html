@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Deadlock determination</title>
+</head>
+<body style="background-color:lightblue">
+  <h1 style="text-align:center;color:red">Dead lock determination using Banker's algorithm</h1><br/><br/>
+  <h2 style="text-align:center;color:purple">Allocation</h2><br/>
+ <form style="text-align:center" method="post" action="/allocation">
+     Process<input type="number" name="p" min="0"><br/>
+     Resource-1<input type="number" name="r1" min="0"><br/>
+     Resource-2<input type="number" name="r2" min="0"><br/>
+     Resource-3<input type="number" name="r3" min="0"><br/><br/>
+     <input type="submit" value="Add" name="Add"><br/><br/>
+ </form>
+
+  <h2 style="text-align:center;color:purple">Max</h2><br/>
+<form style="text-align:center" method="post" action="/max">
+     Process<input type="number" name="p" min="0"><br/>
+     Resource-1<input type="number" name="r1" min="0"><br/>
+     Resource-2<input type="number" name="r2" min="0"><br/>
+     Resource-3<input type="number" name="r3" min="0"><br/><br/>
+     <input type="submit" value="Add" name="Add"><br/><br/>
+</form>
+
+ <h2 style="text-align:center;color:purple">Need</h2><br/>
+<form style="text-align:center" method="post" action="/need">
+     Process<input type="number" name="p" min="0"><br/>
+     Resource-1<input type="number" name="r1" min="0"><br/>
+     Resource-2<input type="number" name="r2" min="0"><br/>
+     Resource-3<input type="number" name="r3" min="0"><br/><br/>
+     <input type="submit" value="Add" name="Add"><br/><br/>
+</form>
+
+ <h2 style="text-align:center;color:purple">Available</h2><br/>
+<form style="text-align:center" method="post" action="/available">
+     Resource-1<input type="number" name="r1" min="0"><br/>
+     Resource-2<input type="number" name="r2" min="0"><br/>
+     Resource-3<input type="number" name="r3" min="0"><br/><br/>
+     <input type="submit" value="Run" name="Run"><br/><br/>
+</form>
+</body>
+</html>
